@@ -1,0 +1,137 @@
+nav {
+	padding: 23px;
+	background: #0c1121;
+	position: relative;
+}
+
+nav .current_user {
+	position: absolute;
+	top: 5px;
+}
+
+nav .user_avatar {
+	margin: 0 auto 2px;
+	width: 60px;
+	height: 60px;
+}
+
+nav .current_user span {
+	font-weight: bold;
+	text-shadow: 1px 0.1px 5px white;
+	color: #330000;
+}
+
+a {
+	color: #b3ffb9;
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+a:not(.selected):hover {
+	color: #ff6363;
+	text-decoration: underline;
+}
+
+nav a {
+	margin: 30px;
+	font-size: 19px;
+	text-decoration: none;
+}
+nav a.selected {
+	color: #ff6363;
+	box-shadow: 3px 3px 3px, 0 0 3px;
+}
+
+nav .newQues {
+	text-decoration: none;
+	position: relative;
+	float: right;
+	margin: 0;
+}
+
+nav .newQues :not(.plus):hover {
+	text-decoration: underline;
+}
+
+nav .newQues .plus {
+	font-size: 40px;
+	position: absolute;
+	top: -20px;
+	left: -30px;
+	text-shadow: 0 0 9px;
+}
+
+/* .toggle_ques {
+} */
+
+.toggle_ques button {
+	padding: 15px;
+	font-size: 15px;
+	margin: 0 20px;
+	color: #0e1929;
+	background-color: #cff2;
+	transition: 0.3xs;
+	border: none;
+	font-size: 16px;
+}
+
+.toggle_ques button:hover {
+	background-color: #ff6363;
+}
+
+.toggle_ques button:active {
+	font-size: 20px;
+}
+
+.toggle_ques button.active {
+	background-color: #ff6363;
+	border: groove white;
+}
+
+.q_container {
+	display: flex;
+	border: groove #ccc;
+	width: 500px;
+	padding: 20px;
+	margin: 20px auto;
+	align-items: center;
+}
+
+/* Questions */
+
+.author img.user_avatar {
+	margin: 0 0 10px 0;
+}
+
+.question {
+	font-size: 18px;
+	text-align: left;
+	margin-left: 25px;
+}
+.question .would_you_rather {
+	font-weight: 300;
+	color: '#ccc';
+}
+.question .option {
+	font-weight: 400;
+	padding: 7px;
+	margin-top: 13px;
+	box-shadow: 2px 2px 3px #9898ea, -1px -1px 3px #9898ea;
+}
+
+.question .option::first-letter {
+	color: #ea9898;
+	padding: 2px;
+}
+
+.question .option span {
+	display: inline-block;
+}
+.question .option .opt_text::first-letter {
+	text-transform: uppercase;
+}
+.question a {
+	font-weight: 500;
+	margin-top: 13px;
+	display: inline-block;
+}

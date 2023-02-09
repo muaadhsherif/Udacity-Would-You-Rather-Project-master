@@ -1,0 +1,23 @@
+.unAnsweredQ {
+	border: groove #ccc;
+	width: 500px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.unAnsweredQ .q_container {
+	border: none;
+	padding: 0;
+}
+
+.unAnsweredQ .submit_btn {
+	background-color: #b3ffb9;
+	color: #0e1929;
+	font-size: 18px;
+	text-shadow: 1px 1px 10px green;
+}
+
+.unAnsweredQ .submit_btn:hover {
+	background-color: #ff6363;
+	text-shadow: 1px 1px 10px white;
+}

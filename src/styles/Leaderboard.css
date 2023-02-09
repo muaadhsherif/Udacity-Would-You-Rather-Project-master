@@ -1,0 +1,42 @@
+table {
+	margin: 50px auto;
+	border: groove #ccc;
+}
+
+td,
+th {
+	padding: 15px 30px;
+	box-shadow: 2px 2px 3px #ccc, -1px -1px 3px #ccc;
+	background-color: #ea989811;
+}
+
+thead {
+	color: #ff6363;
+}
+
+table tbody tr:nth-child(1) {
+	text-shadow: 0 0 7px gold, 0 0 7px gold;
+}
+
+table tbody tr:nth-child(2) {
+	text-shadow: 0 0 7px silver, 0 0 7px silver;
+}
+
+table tbody tr:nth-child(3) {
+	text-shadow: 0 0 7px #a97142, 0 0 7px #a97142;
+}
+
+table .current_user {
+	box-shadow: 2px 2px 5px #ea9898, -1px -1px 5px #ea9898;
+	background-color: #ea989823;
+}
+
+table .current_user td {
+	font-weight: bold;
+}
+
+.table_user_avatar {
+	width: 60px;
+	height: 60px;
+	border-radius: 30%;
+}

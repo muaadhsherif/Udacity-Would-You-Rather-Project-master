@@ -1,0 +1,35 @@
+.add_question {
+	border: groove #ccc;
+	width: 500px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.add_question .q_container {
+	border: none;
+	padding: 0;
+	justify-content: center;
+}
+
+.add_question .submit_btn {
+	background-color: #b3ffb9;
+	color: #0e1929;
+	font-size: 18px;
+	text-shadow: 1px 1px 10px green;
+}
+
+.add_question .submit_btn:hover {
+	background-color: #ff6363;
+	text-shadow: 1px 1px 10px white;
+}
+
+.add_question .option {
+	display: block;
+	width: 400px;
+}
+
+.add_question .option input {
+	box-sizing: border-box;
+	width: 90%;
+	font-size: 18px;
+}

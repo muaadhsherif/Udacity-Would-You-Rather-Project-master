@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.user {
+	height: 300px;
+	width: 200px;
+	margin: 30px;
+	border: double 20px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #7cab80;
+}
+
+.user p {
+	color: #0e1929;
+}
+
+img.user_avatar {
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	border: double #ccc;
+	display: block;
+	margin: 30px auto;
+}
+
+.user button:hover {
+	background-color: #f1f1f1;
+	color: #0e1929;
+}
